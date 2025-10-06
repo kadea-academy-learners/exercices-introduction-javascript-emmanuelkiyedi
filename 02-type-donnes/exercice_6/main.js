@@ -1,2 +1,6 @@
 // Exercice 6
-// Écrivez votre code ici
+let age = 21;
+let nom = "emmanuel";
+let estConnecte = true;
+let valeurNulle = null;
+let inconnue;
