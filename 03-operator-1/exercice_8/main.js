@@ -28,19 +28,19 @@ reste = salaireMensuel - totalDepenses;
 
 // total De depenses en %
 console.log(
-  "pourcentage du salaire mensuel utilisé pour le loyer ",(loyer / salaireMensuel * 100) + "%"
+  "pourcentage du salaire mensuel utilisé pour le loyer ",+ (loyer / salaireMensuel * 100) + "%"
 );
 console.log(
-  "pourcentage du salaire mensuel utilisé pour la nourriture",(nourriture / salaireMensuel * 100 )+ "%"
+  "pourcentage du salaire mensuel utilisé pour la nourriture",+ (nourriture / salaireMensuel * 100 )+ "%"
 );
 console.log(
-  "pourcentage du salaire mensuel utilisé pour le transport",(transport / salaireMensuel * 100) + "%"
+  "pourcentage du salaire mensuel utilisé pour le transport", + (transport / salaireMensuel * 100) + "%"
 );
 console.log(
-  "pourcentage du salaire mensuel utilisé pour le loisirs",(loisir / salaireMensuel * 100) + "%"
+  "pourcentage du salaire mensuel utilisé pour le loisirs", + (loisir / salaireMensuel * 100) + "%"
 );
 console.log(
-  "pourcentage du salaire mensuel utilisé pour les autres depenses",(autresDepenses / salaireMensuel * 100 )+ "%"
+  "pourcentage du salaire mensuel utilisé pour les autres depenses", + (autresDepenses / salaireMensuel * 100 )+ "%"
 );
 // mis à jour du salaire +10%
 salaireMensuel *= 1.10;
@@ -53,25 +53,25 @@ totalDepenses = loyer + nourriture + transport + autresDepenses + loisir;
 reste = salaireMensuel - totalDepenses;
 
 console.log(
-    "nouveau salaire mensuel" , salaireMensuel
+    "nouveau salaire mensuel" , + salaireMensuel
 );
 console.log(
-    "nouveau loyer" ,loyer
+    "nouveau loyer" , + loyer
 );
 console.log(
-    "nouveau montant pour la nourriture" , nourriture
+    "nouveau montant pour la nourriture" , + nourriture
 );
 console.log(
-    "nouveau montant pour le transport" , transport  
+    "nouveau montant pour le transport" , + transport  
 );
 console.log(
-    "nouveau montant pour les loisirs" , loisir
+    "nouveau montant pour les loisirs" , + loisir
 );
 console.log(
-    "nouveau montant pour la totalité des dépenses" , totalDepenses  
+    "nouveau montant pour la totalité des dépenses" , + totalDepenses  
 );
 console.log(
-    "nouveau montant du reste" , reste
+    "nouveau montant du reste" , + reste
 );
 
 // verification des si la depense est excessive
